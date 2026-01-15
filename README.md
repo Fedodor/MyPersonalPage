@@ -26,8 +26,8 @@ Modern single-page portfolio website built with React, Vite, Tailwind CSS, and F
 ```
 MyPersonalPage/
 ├── public/
-│   ├── resume.pdf          # Your resume (add your file)
-│   └── profile.jpg         # Your photo (add your file)
+│   ├── resume.pdf
+│   └── profile.jpg       
 ├── src/
 │   ├── components/
 │   │   └── Navigation.jsx  # Navigation menu
@@ -75,37 +75,6 @@ Built files will be in the `dist/` directory.
 ```bash
 npm run preview
 ```
-
-## 📝 Customization
-
-### Update Personal Information
-
-1. **Hero Section** (`src/sections/Hero.jsx`):
-   - Change "Your Name" to your actual name
-   - Update your job title
-   - Change the description
-
-2. **About Section** (`src/sections/About.jsx`):
-   - Write about yourself
-   - Update features/highlights
-
-3. **Skills Section** (`src/sections/Skills.jsx`):
-   - Add your skills and technologies
-
-4. **Projects Section** (`src/sections/Projects.jsx`):
-   - Add your projects
-   - Update GitHub and Live Demo links
-   - Change descriptions and tech stacks
-
-5. **Contact Section** (`src/sections/Contact.jsx`):
-   - Update email
-   - Add social media links
-   - Update usernames for GitHub, LinkedIn, Telegram
-
-### Add Files
-
-1. **Profile Photo**: Place `profile.jpg` in the `public/` folder
-2. **Resume**: Place `resume.pdf` in the `public/` folder
 
 ### Customize Colors
 
